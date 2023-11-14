@@ -1,0 +1,9 @@
+curl --location 'http://localhost:8080/products' \
+--header 'Content-Type: application/json' \
+--data '{
+    "name": "O'\''Keefe",
+    "description": "Internal Security Facilitator",
+    "price": 125.10,
+    "quantity": 20
+}
+'

@@ -1,0 +1,4 @@
+# to start the server
+docker-compose -f kafka-single-node2.yml up -d
+# to down the server
+docker-compose -f kafka-single-node2.yml down
